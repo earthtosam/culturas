@@ -29,7 +29,11 @@ body {
   font-size: 14px;
   background-color: #fff8ea; }
 
-h1,
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
 h2,
 h3,
 h4,
@@ -42,9 +46,9 @@ h6 {
   font-family: "Timothy", serif; }
 
 p {
-  font-family: "Coffee", sans-serif;
+  font-family: "Coffee", serif !important;
   color: #595959;
-  font-size: 21px !important;
+  font-size: 24px !important;
   line-height: 2;
   font-weight: 400; }
 
@@ -57,7 +61,6 @@ a:focus {
   outline: 0 solid transparent;
   color: #191919;
   font-weight: 500;
-  font-size: 24px;
   font-family: "Timothy", sans-serif; }
 
 ul,
@@ -70,6 +73,70 @@ ol {
 img {
   height: auto;
   max-width: 100%; }
+
+/* Menu Item Container */
+.menu-header {
+  font-size: 64px !important;
+  font-family: "Coffee" !important;
+  color: #f4a928;
+  text-decoration: underline;
+}
+
+.info {
+  font-family: "Timothy" !important;
+}
+
+.info a {
+  color: #1e4fff !important;
+}
+
+#menu-item-container {
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+#menu-item-container h4 {
+    color: #f42828;
+    font-size: 32px !important;
+}
+
+#menu-item-container h1 span {
+  color: #f4a928;
+  font-style: normal;
+}
+
+#menu-item-container p {
+  font-family: "Timothy", serif !important;
+  color: #000000;
+}
+
+#menu-item-container span {
+  font-family: "Timothy", serif !important;
+  font-style: italic;
+  color: #787878;
+}
+
+#menu-item-container span .price {
+  color: #f42828;
+}
+
+#menu-item-container img {
+  border-radius: 20px;
+}
+
+/* About Us */
+.about-content p {
+  font-family: "Timothy" !important;
+}
+
+/* Copyright */
+.copywrite-text p {
+  font-family: "Timothy" !important;
+  font-size: 48px !important;
+}
+
 
 /* :: 3.1.0 Spacing */
 .mt-15 {
@@ -325,7 +392,6 @@ img {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  back
 }
 
 .hero-bg .container .row .sub-container img {
